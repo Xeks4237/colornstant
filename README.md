@@ -1,6 +1,6 @@
 
 <div align="center">
-    <img src="doc/images/colornstant.png">
+    <img src="doc/images/colornstant.png" width="400">
 </div>
 
 # Description
