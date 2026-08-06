@@ -1,13 +1,24 @@
 
 <div align="center">
-    <img src="doc/images/colornstant.png" width="400">
+	<img src="doc/images/colornstant.png" width="400">
 </div>
 
 # Description
 
 Colornstant - Perfect in ANY way colorscheme for people
 
-Main idea behind colornstant colorscheme is to provide set/range of colors and their variations to fully satisfy need of them for any general usecase of user because other colorschemes sometimes just don't have uqeilant of color which user wants in their palette or one or another reason
+Main idea behind colornstant colorscheme is to:
+- To have all necessary range of colors:
+	- Other colorschemes sometimes just don't have equivalent of color which user wants in their palette for one or another reason (mostly caused by skill issiu).
+	- Colornstant colorscheme has equivalent of all 32 terminal colors and extra missing 8 colors such as orange and pink
+	- Colornstant colorscheme will and going to add more colors if it gets REALLY necessary.
+- Keep all the colors recognizable:
+	- It can look good to use some shade of green instead of red but we all can presumably agree on that being annoying and confusing, because of that colornstant colorscheme has only shades of color x to show color x.
+- Make all colors consistant and easy to remember:
+	- All colors of colornstant colorscheme are made using its main foreground colors, other tones of colors are made by increasing or decreasing each RGB value of main foreground color by 20 digits, if doing so results in negative or higher than 255 values we round them to 0 and 255.
+	- All RGB values of colornstant colorscheme end with 0 or 5 to keep it consistantly easy to remember.
+	- Main foreground colors have been chosen manually to retain style of future colornstant colorscheme and with account of other colors being made with them.
+	- Any patterns you can notice in HEX values of colornstant colorscheme are intentional to make HEX values easy to remember too.
 
 # Colors
 
@@ -15,13 +26,13 @@ Colornstant colorscheme offers all 32 main terminal colors with extra 8 colors i
 
 - Main terminal colors:
 <div align="center">
-    <img src="doc/images/main-terminal-colors.png">
+	<img src="doc/images/main-terminal-colors.png">
 </div>
 
 - All colors:
 <div align="center">
-    <img src="doc/images/all-colors-in-line.png">
-    <img src="doc/images/all-colors-in-square.png" width="450">
+	<img src="doc/images/all-colors-in-line.png">
+	<img src="doc/images/all-colors-in-square.png" width="450">
 </div>
 
 ## Reneeded colors
